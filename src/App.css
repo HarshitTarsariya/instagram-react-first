@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #FAFAFA;
 }
+.app__logo{
+  object-fit: contain;
+  /* background-color: #FFFFFF; */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__header{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background-color: #FFFFFF;
+  padding: 20px;
   display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid lightgray;
+  justify-content: space-between;
+}
+.app__modal{
+  display: flex;
+  text-align: center;
   flex-direction: column;
+}
+.app__user{
+  display: flex;
   align-items: center;
+}
+.app__posts{
+  padding: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.app__postRight{
+  margin-left:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__all_auth{
+  border: 1px solid lightgray;
+  padding:3px
 }

@@ -1,0 +1,11 @@
+.imageupload__upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    bottom:0;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding:10px
+}
